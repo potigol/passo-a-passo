@@ -1,3 +1,5 @@
+# Primeiros passos
+
 1-	Leia um número e exiba seu sucessor.
 Para monta nosso programa, precisamos colocamos uma variável, ela simboliza o numero que será digitado que não sabemos qual será. Nesse caso só sabemos que o número é inteiro.
 
@@ -5,17 +7,12 @@ Veja esse exemplo:
 
 
 
-Inicialmente precisamos usar uma variável para poder armazenar o numero que será digitado pelo usuário do nosso programa.  Usaremos a letra N (número).
+>   Inicialmente precisamos usar uma variável para poder armazenar o numero que será digitado pelo usuário do nosso programa.
+>   Usaremos a letra N (número).
 
-
-
-
-
-
-
-
-N = leia_inteiro
-
+````python
+n = leia_inteiro
+````
 
 
 
