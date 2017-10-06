@@ -20,6 +20,6 @@ n = leia_inteiro
 escreva n + 1
 ````
 
->    :shrimp: 'Escreva' é o comando de exibição na tela da linguagem de POTIGOL.
+>    :shrimp: `Escreva` é o comando de exibição na tela da linguagem de POTIGOL.
 
 >    :shrimp: OBS: Por que fiz `n + 1`? Bem vamos pensar no problema da questão. A questão nós pede para exibir na tela o sucessor do número que será digitado; como não sabemos qual será tal numero digitado, atribuímos uma variável para receber o número, sendo assim, essa variável `n` mais `+` um `1` torna-se seu sucessor; usamos aqui a lógica matemática (qual quer numero mais 1, vira seu sucessor). Exemplo: vamos supor que `n` é 7, então 7 + 1 forma 8, o numero a ser exibido na tela será 8.; Se `n` for 23, então 23 +1 forma 24, o numero a ser exibido na tela será 24.
