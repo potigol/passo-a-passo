@@ -97,7 +97,7 @@ V = leia_real
 
 >   :shrimp: Usamos o comando `leia_real`, pois o valor a ser digitado poderá ser digitado no formato de números reais (2,74; 3,50; 4,35...).
 
->   :shrimp: Segundo momento: Criaremos essa nova tabela para atribuir siglas as novas ações que teremos que desenvolver. 
+>   :shrimp: Segundo momento: Criaremos uma nova tabela para atribuir siglas as novas ações que teremos que desenvolver. 
 
 ````html
 NCF (Numero de carteiras fumadas por mês)
@@ -113,7 +113,7 @@ As variáveis `NCF`, `QJF` e `VG `precedem a operação matemática por estarem 
 NCF = (FD * 30) / 20
 ````
 
->   :shrimp: Para achar a quantidade de careira já fumada `(QJF)`, usaremos o valor de `NCF` (quantidade de carteira fumada em um mês) vezes o valor nos dado pelo usuário ao `MF` (numero de meses que fuma).
+>   :shrimp: Para achar a quantidade de carteiras já fumadas `(QJF)`, usaremos o valor de `NCF` (quantidade de carteira fumada em um mês) vezes o valor nos dado pelo usuário ao `MF` (numero de meses que fuma).
 
 ````python
 QJF = NCF * MF 
