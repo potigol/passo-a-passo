@@ -26,7 +26,8 @@ escreva n + 1
 
 
 
-# 2- Calculando a média final de um aluno. Dadas as notas dos 4 bimestre; identificando a situação do aluno como: `APROVADO (nota) >=5;  REPROVADO (nota) <5;      MÉDIA(nota)>=5.`
+# 2- Calculando a média final de um aluno. Dadas as notas dos 4 bimestre.
+Identificando a situação do aluno como: `APROVADO (nota) >=5; REPROVADO (nota) <5; MÉDIA(nota)>=5.`
 
 >   :shrimp: Para montar nosso programa, nós precisamos de quatro (4) variáveis que irão receber os valores correspondentes às notas de cada bimestre. 
 
@@ -75,11 +76,13 @@ escreva “Reprovado”
 >   :shrimp: OBS: Para solucionar a questão acima, usamos o seguinte raciocínio, temos quatro (4) números, onde cada um corresponde à nota de um bimestre; notas essas que podem ou não aparecer em formato de números reais, por esse motivo usamos `leia_real`, que na linguagem de Potigol é o comando para trabalhar com números reais. Para encontrar a média final do aluno pegamos os quatro (4) valores correspondentes às notas somamos e dividimos por quatro, isso por que temos quatro bimestres. Caso essa média seja maior que cinco (5), que é a media final para aprovação (uso do `“se”`), o aluno será aprovado, caso não (uso do `“senão”`), reprovado. 
 
 
-# 3- Calcular a quantidade de dinheiro gasta por um fumante. Dados: o número de meses que ele fuma; o número de cigarros fumados por dia e o preço de uma carteira.
+# 3- Calcular a quantidade de dinheiro gasta por um fumante.
+Dados: o número de meses que ele fuma; o número de cigarros fumados por dia e o preço de uma carteira.
 
 >   :shrimp: De inicio nós precisamos criar essa pequena tabelinha para usarmos como referencia no desenrolar da questão. Essa é a tabelinha que usaremos inicialmente. 
 
-````MF (Numero de meses que fuma)
+````html
+MF (Numero de meses que fuma)
 FD (Cigarros fumados por dia)
 V (Valor da carteira)
 ````
@@ -95,10 +98,11 @@ V = leia_real
 >   :shrimp: Usamos o comando `leia_real`, pois o valor a ser digitado poderá ser digitado no formato de números reais (2,74; 3,50; 4,35...).
 Segundo momento: Criaremos essa nova tabela para atribuir siglas as novas ações que teremos que desenvolver. 
 
+````html
 NCF (Numero de carteiras fumadas por mês)
 QJF (Quantidade de carteira já fumada)
 VG (Valor gasto)
-
+````
 >   :shrimp: Após o usuário digitar os valores necessários, vamos gerar novos valores para encontrar o valor gasto por ele com o uso do cigarro.
 As variáveis `NCF`, `QJF` e `VG `precedem a operação matemática por estarem recebendo os valores gerados pela operação. Exemplo: NCF recebera o valor do resultado de FD multiplicado por trinta (30) e dividido por vinte (20). Sendo assim, `NFC` será para nosso programa um valor, que é o valor resultante dessa operação. 
 
