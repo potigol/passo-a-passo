@@ -73,3 +73,47 @@ escreva “Reprovado”
 >   :shrimp: Se a média do aluno for menor `(<)` a cinco (5), o programa exibirá na tela “Reprovado”.
 
 >   :shrimp: OBS: Para solucionar a questão acima, usamos o seguinte raciocínio, temos quatro (4) números, onde cada um corresponde à nota de um bimestre; notas essas que podem ou não aparecer em formato de números reais, por esse motivo usamos `leia_real`, que na linguagem de Potigol é o comando para trabalhar com números reais. Para encontrar a média final do aluno pegamos os quatro (4) valores correspondentes às notas somamos e dividimos por quatro, isso por que temos quatro bimestres. Caso essa média seja maior que cinco (5), que é a media final para aprovação (uso do `“se”`), o aluno será aprovado, caso não (uso do `“senão”`), reprovado. 
+
+
+3- Calcular a quantidade de dinheiro gasta por um fumante. Dados: o número de meses que ele fuma; o número de cigarros fumados por dia e o preço de uma carteira.
+
+De inicio nós precisamos criar essa pequena tabelinha para usarmos como referencia no desenrolar da questão. Essa é a tabelinha que usaremos inicialmente. 
+
+MF (Numero de meses que fuma)
+FD (Cigarros fumados por dia)
+V (Valor da carteira)
+
+Nosso programa ira receber três valores a serem digitados pelo usuário. 
+
+MF = leia_inteiro
+FD = leia_inteiro
+V = leia_real
+
+Usamos o comando leia_real, pois o valor a ser digitado poderá ser digitado no formato de números reais (2,74; 3,50; 4,35...).
+Segundo momento: Criaremos essa nova tabela para atribuir siglas as novas ações que teremos que desenvolver. 
+
+NCF (Numero de carteiras fumadas por mês)
+QJF (Quantidade de carteira já fumada)
+VG (Valor gasto)
+
+Após o usuário digitar os valores necessários, vamos gerar novos valores para encontrar o valor gasto por ele com o uso do cigarro.
+As variáveis NCF, QJF e VG precedem a operação matemática por estarem recebendo os valores gerados pela operação. Exemplo: NCF recebera o valor do resultado de FD multiplicado por trinta (30) e dividido por vinte (20). Sendo assim, NFC será para nosso programa um valor, que é o valor resultante dessa operação. 
+
+Vamos encontrar o numero de cigarros fumados; multiplicaremos o numero de cigarros fumados por dia por trinta (quantidade de dias que um mês possui) acharemos um valor total de cigarros fumados num mês, esse valor dividiremos por vinte (quantidade de cigarros que uma carteira possui) assim teremos a quantidade de carteiras fumadas em um mês. 
+
+NCF = (FD * 30) / 20
+
+Para achar a quantidade de careira já fumada (QJF), usaremos o valor de NCF (quantidade de carteira fumada em um mês) vezes o valor nos dado pelo usuário ao MF (numero de meses que fuma).
+
+QJF = NCF * MF 
+
+Agora que temos todos os valores necessários para dá à resposta de quanto o usuário gasta/gastou até então fumando, vamos multiplicar o QJF (quantidade já fumada) vezes V (valor de cada carteira) para encontrar VG (valor total gasto).
+
+VG = QJF * V 
+
+Para exibir a nosso usuário o resultado, usaremos o comando “escreva” para o nosso programa exibir na tela. 
+
+escreva VG
+
+OBS: Vamos entender a lógica usada na solução desse problema: Nós precisávamos que nosso usuário nos desse os valores iniciais para encontrarmos a resposta. Solicitamos valores necessários como: valor de uma carteira de cigarros; há quantos meses ele fumava e quantos cigarros ele fuma por dia. Tendo esses valores iniciais, construímos novos valores dentro de nosso programa, exemplo: numero de carteiras fumadas num mês, achamos esse valor multiplicando o numero de cigarros fumados por dia vezes 30, assim temos um número total de cigarros; sabendo que uma carteira possui 20 cigarros, dividimos o valor encontrado por vinte, assim achamos a quantidade de carteiras por mês; depois foi só calcular pela quantidade de meses que ele fuma achando a quantidade de carteiras fumada em todo o tempo e depois foi só multiplicar pelo valor de cada carteira.
+
