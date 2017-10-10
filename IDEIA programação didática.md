@@ -96,7 +96,8 @@ V = leia_real
 ````
 
 >   :shrimp: Usamos o comando `leia_real`, pois o valor a ser digitado poderá ser digitado no formato de números reais (2,74; 3,50; 4,35...).
-Segundo momento: Criaremos essa nova tabela para atribuir siglas as novas ações que teremos que desenvolver. 
+
+>   :shrimp: Segundo momento: Criaremos essa nova tabela para atribuir siglas as novas ações que teremos que desenvolver. 
 
 ````html
 NCF (Numero de carteiras fumadas por mês)
