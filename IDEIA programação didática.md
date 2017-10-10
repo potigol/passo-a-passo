@@ -23,3 +23,41 @@ escreva n + 1
 >    :shrimp: `Escreva` é o comando de exibição na tela da linguagem de POTIGOL.
 
 >    :shrimp: OBS: Por que fiz `n + 1`? Bem vamos pensar no problema da questão. A questão nós pede para exibir na tela o sucessor do número que será digitado; como não sabemos qual será tal numero digitado, atribuímos uma variável para receber o número, sendo assim, essa variável `n` mais `+` um `1` torna-se seu sucessor; usamos aqui a lógica matemática (qual quer numero mais 1, vira seu sucessor). Exemplo: vamos supor que `n` é 7, então 7 + 1 forma 8, o numero a ser exibido na tela será 8.; Se `n` for 23, então 23 +1 forma 24, o numero a ser exibido na tela será 24.
+
+
+
+2- Calculando a média final de um aluno. Dadas as notas dos 4 bimestre; identificando a situação do aluno como: APROVADO (nota) >=5;  REPROVADO (nota) <5;      MÉDIA(nota)>=5;
+Para montar nosso programa, nós precisamos de quatro (4) variáveis que irão receber os valores correspondentes às notas de cada bimestre. 
+
+n1 = leia_real
+n2 = leia_real
+n3 = leia_real
+n4 = leia_real
+
+Outra possibilidade de montar esse primeiro passo é usando a formula a baixo. Nela, colocamos de uma única vez todos os valores que vamos trabalhar.
+
+n1, n2, n3, n4 = leia_real
+
+Usamos leia_real, por que os números correspondentes aos valores das notas podem estar no formato de números reais (9,3; 5,7; 8,2;...).
+
+n1+ n2+ n3+n4 / 4 = media
+
+Somaremos as quatro (4) notas e dividiremos por quatro (4), para encontrar a média do aluno.
+
+Se media >=5
+
+O “Se” é usado na linguagem de programação Potigol, para o caso de se ter mais de uma possibilidade de resultado, esse é o primeiro passo para encontrar o resultado esperado. Caso esse resultado não for encontrado aqui, passaremos para o passo seguinte, usando o ”Senão”.
+
+Escreva “Aprovado”
+
+Se a média do aluno for maior (>) ou igual (=) a cinco (5) o programa exibirá na tela “Aprovado”. 
+
+Senão
+
+Usamos o “Senão” como segunda possibilidade; nesse caso, ele corresponde ao não êxito da primeira possibilidade. 
+
+Escreva “Reprovado”
+
+Se a média do aluno for menor (<) a cinco (5), o programa exibirá na tela “Reprovado”.
+
+OBS: Para solucionar a questão acima, usamos o seguinte raciocínio, temos quatro (4) números, onde cada um corresponde à nota de um bimestre; notas essas que podem ou não aparecer em formato de números reais, por esse motivo usamos leia_real, que na linguagem de Potigol é o comando para trabalhar com números reais. Para encontrar a média final do aluno pegamos os quatro (4) valores correspondentes às notas somamos e dividimos por quatro, isso por que temos quatro bimestres. Caso essa média seja maior que cinco (5), que é a media final para aprovação (uso do “se”), o aluno será aprovado, caso não (uso do “senão”), reprovado. 
