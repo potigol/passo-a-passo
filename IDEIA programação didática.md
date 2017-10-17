@@ -46,7 +46,7 @@ n1, n2, n3, n4 = leia_real
 >   :shrimp: Usamos `leia_real`, por que os números correspondentes aos valores das notas podem estar no formato de números reais (9,3; 5,7; 8,2;...).
 
 ````python
-n1+ n2+ n3+n4 / 4 = media
+media = n1+ n2+ n3+n4 / 4 
 ````
 >   :shrimp: Somaremos as quatro (4) notas e dividiremos por quatro (4), para encontrar a média do aluno.
 
