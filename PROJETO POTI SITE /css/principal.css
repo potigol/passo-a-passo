@@ -1,0 +1,38 @@
+img#logoIndex {
+	width: 5%;
+	margin-left: 25%;
+	border-radius: 25em;
+	display: block;
+    margin: auto;
+    float: left;
+}
+
+div#corpo {
+	margin-right: 17%;
+	margin-left: 17%;
+	font-family: 'Acme', sans-serif;
+}
+
+img#logoFooter {
+	width: 2%;
+}
+
+.top-bar, .top-bar ul {
+    background-color: #292c30 !important;
+    color: #f5f5f5;
+    padding-right: 15%;
+	padding-left: 15%;
+}
+
+.callout.large {
+    padding: 3rem;
+    border: none;
+}
+
+#codephoto {
+	width: 26em;
+	height: 13em;
+}
+.callout.large {
+	background-image: url("img/fundo1.png");
+}
