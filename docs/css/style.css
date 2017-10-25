@@ -1,0 +1,39 @@
+@import url(https://fonts.googleapis.com/css?family=Teko:300,400,500,600);
+
+#particles-js{
+	background: url(https://i.imgur.com/2vOXiPV.jpg?1);
+	border-radius: 0em 0em 13% 13%;
+}
+
+h1#particulas{
+	font-size: 10rem;
+	position: absolute;
+	top: 25%;
+	left: 35%;
+	color: #FFF;
+	font-family: teko;
+	font-weight: 400;
+	text-shadow: 5px 5px #5F6D72;
+	text-transform: uppercase;
+}
+
+h5 {
+	font-size: 4rem;
+	position: absolute;
+	top: 53%;
+	left: 30%;
+	color: #FFF;
+	font-family: teko;
+	font-weight: 400;
+	text-shadow: 5px 5px #5F6D72;
+	text-transform: uppercase;
+}
+
+.hollow.button {
+	position: absolute;
+	top: 68%;
+	left: 45%;
+	border-radius: 1em;
+	padding: 0.7em 2em 0.7em 2em;
+	color: white;
+}

@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Saira');
+
 img#logoIndex {
 	width: 5%;
 	margin-left: 25%;
 	border-radius: 25em;
-	display: block;
     margin: auto;
     float: left;
 }
@@ -10,7 +11,7 @@ img#logoIndex {
 div#corpo {
 	margin-right: 17%;
 	margin-left: 17%;
-	font-family: 'Acme', sans-serif;
+	font-family: 'Saira', sans-serif;
 }
 
 img#logoFooter {
@@ -18,7 +19,8 @@ img#logoFooter {
 }
 
 .top-bar, .top-bar ul {
-    background-color: #292c30 !important;
+    background: url(https://i.imgur.com/2vOXiPV.jpg?1);
+    border-radius: 3em;
     color: #f5f5f5;
     padding-right: 15%;
 	padding-left: 15%;
@@ -32,7 +34,37 @@ img#logoFooter {
 #codephoto {
 	width: 26em;
 	height: 13em;
+	float: right;
+    border-radius: 0.9em;
 }
 .callout.large {
 	background-image: url("img/fundo1.png");
+}
+
+.top-bar {
+	float: center;
+}
+
+img.icon {
+	height: 1.1em;
+    width: 1em;
+}
+
+#gifjogo {	
+	height: 5em;
+    width: 5em;
+}
+
+p.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vertical.medium-horizontal.menu.expanded.text-center {
+    margin-bottom: 2em;
+}
+
+.centro {
+    position:absolute;
+    left: :50%;
 }
