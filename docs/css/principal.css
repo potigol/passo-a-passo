@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Saira');
 
+body {	
+	font-family: 'Saira', sans-serif;	
+}
 img#logoIndex {
 	width: 5%;
 	margin-left: 25%;
@@ -10,7 +13,50 @@ img#logoIndex {
 div#corpo {
 	margin-right: 17%;
 	margin-left: 17%;
-	font-family: 'Saira', sans-serif;
+}
+
+div#master {
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#A9C8C8', endColorstr='#A8B3C2')";
+    background: linear-gradient(135deg, #A9C8C8 0%, #A8B3C2 100%);
+    overflow: hidden;
+    height: 82%;
+	width: auto;
+}
+
+.linhaInicio {	
+	font-size: 1.8em;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+    margin-top: 2%;
+    box-sizing: border-box;
+    width: 100%
+}
+
+.linhaInicio span {
+	padding: 0 10px 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    border-radius: 3px;    
+}
+
+#botaoDownload {
+	text-align: center;
+    margin: 1em auto 0;
+}
+
+#botaoDownload a {
+	border-radius: 1em;
+	color: white;
+}
+
+#master p {	
+	font-size: 0.8em;
+	color: #555;
+
+
+	text-align: center;
 }
 
 img#logoFooter {
@@ -55,11 +101,6 @@ img.icon {
 #gifjogo {	
 	height: 5em;
     width: 5em;
-}
-
-.flex-video.widescreen.vimeo {
-	border-radius: 0 0 10em 10em;
-	margin-bottom: 3%;
 }
 
 #Jerimum {
