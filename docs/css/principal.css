@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Saira');
+@import url('https://fonts.googleapis.com/css?family=Arvo');
 
 body {	
 	font-family: 'Saira', sans-serif;	
 }
+
 img#logoIndex {
 	width: 5%;
 	margin-left: 25%;
@@ -16,10 +18,10 @@ div#corpo {
 }
 
 div#master {
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#A9C8C8', endColorstr='#A8B3C2')";
-    background: linear-gradient(135deg, #A9C8C8 0%, #A8B3C2 100%);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#A9C8C8', endColorstr='white')";
+    background: linear-gradient(to bottom, #A9C8C8 0%, white 100%);
     overflow: hidden;
-    height: 82%;
+    height: 90%;
 	width: auto;
 }
 
@@ -54,8 +56,6 @@ div#master {
 #master p {	
 	font-size: 0.8em;
 	color: #555;
-
-
 	text-align: center;
 }
 
@@ -71,12 +71,13 @@ img#logoFooter {
     padding-right: 15%;
     padding-left: 15%;      
     border-radius: 3em;
-    background-image: url("https://i.imgur.com/2vOXiPV.jpg?1");
+    background-color: black;
 }
 
 .top-bar ul li a{
 	color: white;
 } 
+
 .callout.large {
     padding: 3rem;
     border: none;
@@ -104,14 +105,29 @@ img.icon {
 }
 
 #Jerimum {
-	background-image: url(../img/fundoJogos.jpg);	
+    background: linear-gradient(to bottom, white 0%, #A9C8C8 100%);
 	text-align: center;
-	border-radius: 10em 10em 0 0;
+    margin-top: 2%;
 }
-#Jerimum2 {
-	padding: 13%;
-}
+
 img#logoIndexFooter {
     float: left;    
-	width: 5%;
+	width: 5em;
+
+}
+
+#videojogo {
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 25);
+    overflow: hidden;
+}
+
+#videocdg {
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 25);
+    overflow: hidden;
+}
+
+h2.Arvo {
+    font-family: 'Arvo', serif;
 }
