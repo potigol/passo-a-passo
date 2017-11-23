@@ -1,0 +1,183 @@
+<!doctype html>
+<html class="no-js" lang="pt">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" href="img/logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet"> 
+    <title>Aprenda a programar • Potigol </title>
+    <link rel="stylesheet" href="css/foundation.min.css">  
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/styleLinguagem.css">
+    <script src="js/index.js"></script> 
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+  </head>
+  <body style="margin-top: 0em;">     
+
+   <!--inicio cabeça -->
+    <div class="slideUp">
+      <nav class="top-bar" data-topbar>
+        <div class="lado-esquerdo">
+          <div class="menusuperior-link align-center toggle-topbar" data-responsive-toggle="menusuperior" data-hide-for="medium">  
+            <button class="menu-icon" type="button" data-toggle="menusuperior"></button>
+            <a data-toggle="menusuperior" href="#"><span>Menu</span></a>
+          </div>
+        </div>
+
+        <section id="menusuperior" class="top-bar-section">
+          <div class="top-bar">
+            <a href="index.html"><img class="esconde-mobile" id="logoIndex" src="img/logo.png"></a>
+            <div class="top-bar-right">
+              <ul class="menu">
+                <li><a href="linguagem.html">Aprenda a programar</a></li>
+                <li><a href="jerimum.html">Biblioteca Jerimum</a></li>
+                <li><a href="download.html">Download</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </nav>
+    </div>   
+    <!--fim cabeça -->
+
+    <article class="page-content">
+      <div class="row">
+        <div class="medium-12 medium columns">
+          <h1 class="text-center"><span class="especial">A Linguagem</span></h1>          
+          <p class="text-center">Linguagem de programação moderna em português para iniciantes</p>
+        </div>
+        <div class="medium-7 medium columns">
+
+          <div>
+            <h1 class="text-left"><span class="especial">Variáveis</span></h1>
+            <hr> 
+            <div class="areacodigo">
+              <kbd>
+                x <span class="rosa">=</span>  <span class="number">10  </span>      <span class="comentario">#Valor fixo</span> <br/><br/>
+
+                <span class="rosa">var</span> y <span class="rosa">:= </span> <span class="number"> 10</span>   <span class="comentario">#Valor alterável</span> <br/>
+                y <span class="rosa">:=</span> y <span class="rosa">+</span>  <span class="number">2</span>
+              </kbd>
+            </div>  
+          </div>
+
+          <div>
+            <h1 class="text-left"><span class="especial">Operações Aritméticas</span></h1>
+            <hr> 
+            <div class="areacodigo">
+              <kbd>  
+                <span class="number">5</span><span class="rosa"> + </span><span class="number">3</span><br/>
+                <span class="number">5</span><span class="rosa"> - </span><span class="number">3</span><br/>
+                <span class="number">5</span><span class="rosa"> * </span><span class="number">3</span><br/>
+                <span class="number">5</span><span class="rosa"> / </span><span class="number">3</span><br/>
+                <span class="number">5</span><span class="rosa"> div </span><span class="number">3</span><br/>
+                <span class="number">5</span><span class="rosa"> mod </span><span class="number">3</span>
+              </kbd>
+            </div>  
+          </div>
+
+          <div>
+            <h1 class="text-left"><span class="especial">Entrada</span></h1>
+            <hr> 
+            <div class="areacodigo">
+              <kbd>  
+                a<span class="rosa"> = </span>leia_inteiro <br/>
+                b<span class="rosa"> = </span>leia_numero <br/>
+                c<span class="rosa"> = </span>leia_texto <br/>
+                x<span class="rosa">,</span> y<span class="rosa">,</span> z = leia_inteiro <br/>
+                números <span class="rosa">=</span> leia_inteiros(<span class="number">5</span>)      <span class="comentario">#Lê um lista de 5 inteiros, um por linha</span> <br/>
+                números <span class="rosa">=</span> leia_inteiros(<span class="gold">","</span>)    <span class="comentario">#Lê uma lista de números separados por vírgula</span>
+
+
+              </kbd>
+            </div>  
+          </div>
+
+          <div>
+            <h1 class="text-left"><span class="especial">Saída</span></h1>
+            <hr> 
+            <div class="areacodigo">
+              <kbd>  
+                escreva "Olá Mundo"   <span class="comentario">#Escreve e passa para a próxima linha</span><br/>
+                imprima "Olá "        <span class="comentario">#Escreve e continua na mesma linha</span><br/>
+                escreva "Mundo"<br/><br/>
+
+                nome = "Mundo"<br/>
+                escreva "Olá {nome}"
+
+              </kbd>
+            </div>  
+          </div>
+
+          <div>
+            <h1 class="text-left"><span class="especial">Se</span></h1>
+            <hr> 
+            <div class="areacodigo">
+              <kbd> 
+              se x > 5 então <br/>
+              escreva "Maior do que cinco." <br/>
+              fim <br/><br/>
+
+              ### <br/>
+              se x > 5 então <br/>
+                  escreva "Maior do que cinco."<br/>
+              senão <br/>
+                  escreva "Menor ou igual a cinco." <br/>
+              fim <br/><br/>
+
+              ###<br/>
+              se x > 8 então<br/>
+                  escreva "Maior do que oito."<br/>
+              senãose x > 6 então<br/>
+                  escreva "Maior do que seis."<br/>
+              senãose x > 4 então<br/>
+                  escreva "Maior do que quatro."<br/>
+              senãose x > 2 então<br/>
+                  escreva "Maior do que dois."<br/>
+              senão<br/>
+                  escreva "Menor ou igual a dois."<br/>
+              fim
+              </kbd>
+            </div>  
+          </div>
+
+        </div>
+        <div class="medium-3 medium columns">
+        </div>
+
+
+        <!-- div das redes sociais-->
+        <div class="medium-3 medium columns">
+          <p>Redes Sociais</p>
+          <a href="https://twitter.com/potigol?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @potigol</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          <div id="fb-root"></div>
+          <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.11';
+            fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));</script>
+        </div> 
+
+      </div>  
+
+
+
+      <div class="row">
+        <div class="medium-6 medium columns">          
+        </div>
+        <div class="medium-3 medium columns">
+        </div>
+        <div class="medium-3 medium columns">
+        </div>        
+      </div>  
+     
+    </article>
+
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>

@@ -6,25 +6,37 @@
     <link rel="icon" href="img/logo.png">
     <title>Potigol </title>
     <link rel="stylesheet" href="css/foundation.min.css">  
-    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/principal.css">    
+    <link rel="stylesheet" href="css/sup-styles.css" />
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/foundation.min.js"></script> 
   </head>
   <body>    
 
     <!--inicio cabeça -->
-    <div>
-      <div class="top-bar">
-        <a href="index.html"><img id="logoIndex" src="img/logo.png"></a>
-        <div class="top-bar-right">
-          <ul class="menu">
-            <li><a href="#">Aprenda a programar</a></li>
-            <li><a href="jerimum.html">Biblioteca Jerimum</a></li>
-            <li><a href="download.html">Download</a></li>
-          </ul>
+    <div class="slideUp">
+      <nav class="top-bar" data-topbar>
+        <div class="lado-esquerdo">
+          <div class="menusuperior-link align-center toggle-topbar" data-responsive-toggle="menusuperior" data-hide-for="medium">  
+            <button class="menu-icon" type="button" data-toggle="menusuperior"></button>
+            <a data-toggle="menusuperior" href="#"><span>Menu</span></a>
+          </div>
         </div>
-      </div>
-    </div>    
+
+        <section id="menusuperior" class="top-bar-section">
+          <div class="top-bar">
+            <a href="index.html"><img class="esconde-mobile" id="logoIndex" src="img/logo.png"></a>
+            <div class="top-bar-right">
+              <ul class="menu">
+                <li><a href="linguagem.html">Aprenda a programar</a></li>
+                <li><a href="jerimum.html">Biblioteca Jerimum</a></li>
+                <li><a href="download.html">Download</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </nav>
+    </div>   
     <!--fim cabeça -->
 
     <!--Video sobre a linguagem-->
@@ -32,7 +44,7 @@
       <div class="linhaInicio"><span>Programação para todos com Potigol</span></div>
       <p> Linguagem de programação moderna em português para iniciantes</p>
       <div id="botaoDownload">
-        <a class="button" href="#">Baixe agora</a>       
+        <a class="button" href="https://github.com/potigol/Potigol/releases/download/0.9.13/potigol.zip">Baixe agora</a>       
       </div>     
       <div class="row">       
         <div class="medium-12 columns">
@@ -69,7 +81,7 @@
         </div>
       </div>
       <div class="row">
-        <a class="button" style="width:100%;" href="#"><img class="icon" src="img/logo.png">  Baixe agora</a>
+        <a class="button" style="width:100%;" href="https://github.com/potigol/Potigol/releases/download/0.9.13/potigol.zip"><img class="icon" src="img/logo.png">  Baixe agora</a>
       </div>
     </div>
 
@@ -96,8 +108,8 @@
           <div class="medium-6 columns">            
             <h2 class="Arvo">Passo a passo</h2>
             <p id="pJerimum">Aprenda a programar em português  <br>de maneira interativa e gratuita .</p>
-            <a class="button" href="#">A Linguagem</a>
-            <a class="button secondary" href="#">Video Aulas</a>            
+            <a class="button" href="linguagem.html">A Linguagem</a>
+            <a class="button secondary" href="video-aulas.html">Video Aulas</a>            
             <a class="button" href="#">Exemplos</a>                         
           </div>
         </div>

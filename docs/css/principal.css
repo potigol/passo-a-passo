@@ -2,13 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Arvo');
 
 body {	
-	font-family: 'Saira', sans-serif;	
+	font-family: 'Saira', sans-serif;
+    margin-top: 5em;	
 }
 
 img#logoIndex {
-	width: 5%;
-	margin-left: 25%;
-    margin: auto;
+	width: 7%;
     float: left;
 }
 
@@ -131,3 +130,40 @@ img#logoIndexFooter {
 h2.Arvo {
     font-family: 'Arvo', serif;
 }
+
+
+@media screen and (max-width: 750px) {
+    body {
+        margin-top: 1.5em; 
+        width: auto;
+    }
+
+    .top-bar {
+        background:#000 !important; 
+    }
+
+    .top-bar {        
+        padding: 1%;
+    }
+
+    .top-bar ul { 
+        padding: 0%;   
+        border-radius: 3em;
+        background-color: black;
+    }
+
+    .lado-esquerdo .menusuperior-link {
+     padding-left: 0%;
+    }
+
+    #codephoto {
+        margin-top:5px;
+    }
+
+    .esconde-mobile {display: none; }
+
+    div#master {      
+        height: auto;  
+    }
+}
+
